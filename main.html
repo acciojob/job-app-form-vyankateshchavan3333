@@ -11,7 +11,7 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<section>
-		<form meho="post">
+		<form method="post">
 			<fieldset>
 						<label for="name">Name* :</label>
 				<input type="text" id="name" required><br><br>
@@ -19,9 +19,9 @@
 				<input type="email" id="email" required><br><br>
 						<label>Gender* :</label><br><br>
 						<label for="male">Male</label>
-				<input type="radio" name="gender" id="male" value="male">
+				<input type="radio" name="gender" id="male" value="male" required>
 						<label for="female">Female</label>
-				<input type="radio" name="gender" id="female" value="female"><br><br>
+				<input type="radio" name="gender" id="female" value="female" required><br><br>
 						<label for="laptop">Laptop Brands</label>
 				<select id="laptop">
 					<option>Apple</option>
@@ -33,7 +33,7 @@
 						<label for="dob">Date of Birth* :</label>
 				<input type="date" id="dob" required><br><br>
 						<label for="password">Password* :</label>
-				<input type="password" id="password"required><br><br>
+				<input type="password" id="password" required><br><br>
 						<label for="portfolio">Portfolio URL:</label>
 				<input type="url" id="portfolio" ><br><br>
 
